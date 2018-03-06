@@ -1,0 +1,70 @@
+/*爱好*/
+@media screen and  (max-width:480px){
+	.cbox{
+		height: 120px;
+		padding: 0;
+		text-align: center;
+	}
+	.cbox>img{
+		width: 30px;
+		margin-left: -15px;
+	}
+	.cbox>.model>div{
+		font-size: 8px;
+	}
+}
+@media screen and (min-width: 481px) and (max-width:650px){
+	.cbox{
+		height: 150px;
+		padding: 0;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 651px) and (max-width:767px){
+	.cbox{
+		height: 200px;
+		padding: 0;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:991px){
+	.cbox{
+		height: 250px;
+		padding: 0;
+		text-align: center;
+	}
+}
+@media screen and (min-width:992px){
+	.cbox{
+		height:300px;
+		padding: 0;
+		text-align: center;
+	}
+}
+/*结束语*/
+@media screen and (max-width:767px){
+	.footext1{
+		text-align:center;
+		margin-bottom: 20px;
+	}
+	.footext2{
+		text-align:center;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:991px){
+	.footext1{
+		text-align:center;
+		margin-bottom: 20px;
+	}
+	.footext2{
+		text-align:center;
+	}
+}
+@media screen and (min-width:992px){
+	.footext1{
+		text-align:start;
+	}
+	.footext2{
+		text-align:end;
+	}
+}
